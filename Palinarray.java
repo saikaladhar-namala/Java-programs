@@ -26,12 +26,12 @@ public class Palinarray
 	{
 		for(int j=0;j<arr.length/2;j++)
 		{
-			if(arr[j]==arr1[j])
+			if(arr[j]!=arr1[j])
 			{
-				return true;
+				return false;
 			}
 		}
-		return false;
+		return true;
 	}
 	
 }
