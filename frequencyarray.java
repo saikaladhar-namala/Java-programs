@@ -13,7 +13,7 @@ public class frequencyarray
 			int count=1;
 			for(j=i+1;j<arr.length;j++)
 			{
-				if(arr[i]==arr[j]) {f:F
+				if(arr[i]==arr[j]) {
 					count++;
 				}
 				else
